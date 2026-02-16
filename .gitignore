@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# GCP Credentials (IMPORTANT - never commit these!)
+*.json
+credentials/
+service-account-key.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files (optional - might want to commit sample data)
+data/*.csv
+!data/day*.csv  # But keep our test files
+
+# Reports
+reports/*.json
+reports/*.txt
+
+# Logs
+*.log
+logs/
