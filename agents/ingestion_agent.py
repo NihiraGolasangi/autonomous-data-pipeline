@@ -1,8 +1,7 @@
-# agents/ingestion_agent.py
+
 import sys
 import os
 
-# Add parent directory to path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from tools.storage_tools import read_csv_from_gcs, detect_schema
@@ -46,7 +45,7 @@ class IngestionAgent:
                 "rows": len(df),
                 "columns": list(df.columns),
                 "schema": schema,
-                "dataframe": df  # Pass dataframe to next agent
+                "dataframe": df 
             }
             
             logger.info(f"{self.name} completed: {len(df)} rows, {len(schema)} columns")
