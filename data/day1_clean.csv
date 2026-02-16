@@ -1,34 +1,16 @@
-customer_id,customer_name,email,segment
-C-101,John Smith,john.smith@email.com,retail
-C-102,Sarah Johnson,sarah.j@email.com,retail
-C-103,Mike Chen,mike.chen@email.com,wholesale
-C-104,Emily Davis,emily.d@email.com,retail
-C-105,Robert Wilson,r.wilson@email.com,enterprise
-C-106,Lisa Anderson,lisa.a@email.com,retail
-C-107,David Brown,d.brown@email.com,wholesale
-C-108,Jennifer Taylor,j.taylor@email.com,retail
-C-109,James Martinez,j.martinez@email.com,enterprise
-C-110,Maria Garcia,m.garcia@email.com,retail
-C-111,William Lee,w.lee@email.com,wholesale
-C-112,Patricia White,p.white@email.com,retail
-C-113,Christopher Harris,c.harris@email.com,retail
-C-114,Elizabeth Clark,e.clark@email.com,enterprise
-C-115,Daniel Lewis,d.lewis@email.com,retail
-C-116,Barbara Walker,b.walker@email.com,wholesale
-C-117,Matthew Hall,m.hall@email.com,retail
-C-118,Susan Allen,s.allen@email.com,retail
-C-119,Anthony Young,a.young@email.com,enterprise
-C-120,Jessica King,j.king@email.com,retail
-C-121,Mark Wright,m.wright@email.com,wholesale
-C-122,Karen Scott,k.scott@email.com,retail
-C-123,Steven Green,s.green@email.com,retail
-C-124,Nancy Adams,n.adams@email.com,enterprise
-C-125,Paul Baker,p.baker@email.com,retail
-C-126,Betty Nelson,b.nelson@email.com,wholesale
-C-127,George Hill,g.hill@email.com,retail
-C-128,Helen Moore,h.moore@email.com,retail
-C-129,Edward Jackson,e.jackson@email.com,enterprise
-C-130,Sandra Martin,s.martin@email.com,retail
-C-131,Brian Thompson,b.thompson@email.com,wholesale
-C-132,Dorothy Garcia,d.garcia@email.com,retail
-C-133,Ronald Martinez,r.martinez@email.com,retail
+order_id,customer_id,amount,order_date,status
+ORD-011,C-111,340.00,2025-02-15,completed
+ORD-012,C-112,,2025-02-15,pending
+ORD-013,C-113,175.00,2025/02/15,completed
+ORD-011,C-111,340.00,2025-02-15,completed
+ORD-014,C-114,95000.00,2025-02-15,completed
+ORD-015,C-115,220.50,15-02-2025,cancelled
+ORD-016,C-116,180.00,2025-02-15,completed
+ORD-017,C-117,,2025-02-15,pending
+ORD-018,C-118,425.00,Feb 15 2025,completed
+ORD-019,C-119,88000.00,2025-02-15,completed
+ORD-020,C-120,310.00,2025-02-15,completed
+ORD-012,C-112,150.00,2025-02-15,pending
+ORD-021,C-121,275.00,2025-02-15,cancelled
+ORD-022,C-122,,2025/02/15,pending
+ORD-023,C-123,199.99,2025-02-15,completed
