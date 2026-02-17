@@ -143,3 +143,5 @@ See `requirements.txt`. Key dependencies:
 - pandas
 - numpy
 
+
+Portions of this codebase were developed with assistance from Claude (Anthropic) as a coding assistant. All code has been reviewed, tested, and validated by the developer.
